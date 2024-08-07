@@ -1,3 +1,4 @@
+
 body{
     padding: 0px;
     margin: 0px;
@@ -15,14 +16,6 @@ body{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top{
-   margin-left: 92%;
-   font-size: 15px;
-   border: 1px solid black;
-   margin-right: 30px;
-   padding: 5px;
-   border-radius: 2px;
-}
 .header{
     padding: 60px;
     background-color: black;
@@ -37,19 +30,10 @@ h1{
 }
 .box1{
     background-color: rgb(224,225,230);
-    padding: 20px;
     float: left;
     margin: 70px;
     padding: 5%;
     margin-left: 12%;
-    font-family: 'Times New Roman', Times, serif;
-}
-.no{
-    font-size: 40px;
-    color: gray;
-}
-.box1 .fa-xmark{
-    font-size: 30px;  
 }
 .box2{
     background-color: rgb(224,225,230);
@@ -58,24 +42,12 @@ h1{
     margin: 70px;
     padding: 5%;
 }
-.box2 .fa-xmark{
-    font-size: 30px;  
-}
-.spl .spl1{
-    font-size: 20px;
-}
-.fa-star{
-    text-align: center;
-}
 .box3{
     background-color: rgb(224,225,230);
     padding: 20px;
     float: left;
     margin: 70px;
     padding: 5%;
-}
-.box3 .fa-xmark{
-    font-size: 30px;  
 }
 .box4{
     background-color: rgb(224,225,230);
@@ -85,18 +57,12 @@ h1{
     padding: 5%;
     margin-left: 12%;
 }
-.box4 .fa-xmark{
-    font-size: 30px;  
-}
 .box5{
     background-color: rgb(224,225,230);
     padding: 20px;
     float: left;
     margin: 70px;
     padding: 5%;
-}
-.box5 .fa-xmark{
-    font-size: 30px;  
 }
 .box6{
     background-color: rgb(224,225,230);
@@ -105,9 +71,6 @@ h1{
     margin: 70px;
     padding: 5%;
 }
-.box6 .fa-xmark{
-    font-size: 30px;  
-}
 .footer{
     background-color: black;
     clear: both;
@@ -115,5 +78,6 @@ h1{
     color: gray;
     text-align: center;
 }
+
 
 
