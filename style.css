@@ -1,83 +1,132 @@
-
 body{
     padding: 0px;
     margin: 0px;
 }
 .head{
-   overflow: hidden;
-   background-color: white;
-}
-.head a{
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.header{
-    padding: 60px;
-    background-color: black;
-}
-h1{
-    text-align: center;
-    color: white;
-}
-.para{
-    color: gray;
-    text-align: center;
+    overflow: hidden;
+    background-color: white;
+ }
+ .head a{
+     float: left;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 20px 20px;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .top{
+    margin-left: 92%;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 2px;
+ }
+ .header{
+     padding: 60px;
+     background-color: black;
+ }
+ h1{
+     text-align: center;
+     color: white;
+ }
+ .para{
+     color: gray;
+     text-align: center;
+ }
+#boxes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content:center;
+    margin-top: 120px;
 }
 .box1{
-    background-color: rgb(224,225,230);
-    float: left;
-    margin: 70px;
-    padding: 5%;
-    margin-left: 12%;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
+}
+.view{
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
 }
 .box2{
-    background-color: rgb(224,225,230);
-    padding: 20px;
-    float: left;
-    margin: 70px;
-    padding: 5%;
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
 }
+
 .box3{
-    background-color: rgb(224,225,230);
-    padding: 20px;
-    float: left;
-    margin: 70px;
-    padding: 5%;
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
 }
 .box4{
-    background-color: rgb(224,225,230);
-    padding: 20px;
-    float: left;
-    margin: 70px;
-    padding: 5%;
-    margin-left: 12%;
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
 }
 .box5{
-    background-color: rgb(224,225,230);
-    padding: 20px;
-    float: left;
-    margin: 70px;
-    padding: 5%;
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
 }
 .box6{
-    background-color: rgb(224,225,230);
-    padding: 20px;
-    float: left;
-    margin: 70px;
-    padding: 5%;
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;
+}
+.box7{
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center; 
+}
+.box8{
+    position: relative;
+    width: 252px;
+    height: 380px;
+    border: 1px solid rgb(222,225,230);
+    border-radius: 10px;
+    text-align: center;  
 }
 .footer{
     background-color: black;
     clear: both;
     padding: 20px;
-    color: gray;
+    color: white;
     text-align: center;
+    margin-top: 3%;
 }
+
+
+
 
 
 
