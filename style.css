@@ -15,6 +15,16 @@ body{
      text-decoration: none;
      font-family: Arial, Helvetica, sans-serif;
  }
+#right{
+    font-size: 15px;
+    font-family: Arial, Helvetica, serif;
+    font-weight: 100;
+    border: 1px solid black;
+    margin-left: 65%;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 13px;
+}
  .top{
     margin-left: 92%;
     font-size: 15px;
@@ -47,74 +57,155 @@ body{
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
 }
 .view{
+    margin-top: 18%;
     margin-left: 82px;
     width: 90px;
-    margin-top: 40px;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 14px;
     padding: 10px 5px;
 }
+.del{
+    color: gray;
+}
 .box2{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
 }
-
+.box2 .special{
+    margin-top: 1%;
+}
+.sales1{
+    position: absolute;
+    top: 55.5%;
+    margin-left: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 32px;
+}
+.view1{
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
 .box3{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
+}
+.view2{
+    margin-top: 18%;
+    margin-left: 82px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
 }
 .box4{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
+}
+.view3{
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
 }
 .box5{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
+}
+.view4{
+    margin-top: 18%;
+    margin-left: 82px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+.sales2{
+    position: absolute;
+    top: 112.5%;
+    margin-left: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 32px;
 }
 .box6{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
 }
+.view5{
+    margin-top: 20%;
+    margin-left: 82px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
 .box7{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center; 
 }
+.view6{
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
+}
 .box8{
-    position: relative;
     width: 252px;
     height: 380px;
     border: 1px solid rgb(222,225,230);
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;  
+}
+.view7{
+    margin-left: 82px;
+    width: 90px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 5px;
 }
 .footer{
     background-color: black;
