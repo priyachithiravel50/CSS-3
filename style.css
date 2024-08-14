@@ -4,6 +4,7 @@ body{
 }
 .head{
     overflow: hidden;
+    background-color: rgb(248,249,250);
 }
  .head a{
      float: left;
@@ -15,45 +16,67 @@ body{
      font-family: Arial, Helvetica, sans-serif;
  }
  .start{
-    font-size: 18px;
+    font-size: 19px;
+    margin-left: 120px;
  }
-#right{
-    font-size: 15px;
-    font-family: Arial, Helvetica, serif;
-    border: 1px solid black;
-    margin-left: 64%;
-    border-radius: 3px;
-    padding: 5px;
-    margin-top: 15px;
-}
-.fa-circle-dot{
+ .home{
+    width: 20px;
     font-size: 17px;
-}
- .top{
-    margin-left: 92%;
-    font-size: 15px;
-    border: 1px solid black;
-    margin-right: 30px;
-    padding: 5px;
-    border-radius: 2px;
+    margin-top: 3px;
  }
+ .abt{
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 4px;
+    letter-spacing: 0.6px;
+ }
+ .cart{
+    margin-left: 50%;
+    border-radius: 7px;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 12px 6px 12px;
+    padding: 10px;
+    word-spacing: 10px;
+}
+.cart:hover{
+    background-color: black;
+    color: white;
+}
+.cart1{
+    display: inline;
+    text-align: center;
+    font-size: medium;
+}
+.cart0{
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px 6.8px 1.5px 6.8px;
+    color: white;
+    background-color: black;
+    border-style: none;
+}
  .header{
      padding: 60px;
      background-color: black;
  }
  h1{
-     text-align: center;
-     color: white;
-     font-size: 50px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  .para{
      color: gray;
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 20px;
+     margin-bottom: 20px;
  }
-
 #boxes{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -64,7 +87,7 @@ body{
 }
 .box1{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 7px;
     text-align: center;
@@ -84,7 +107,7 @@ body{
 }
 .box2{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 3px;
     text-align: center;
@@ -92,7 +115,7 @@ body{
 }
 .sales1{
     position: absolute;
-    top: 67%;
+    top: 67.2%;
     margin-left: 200px;
     background-color: black;
     color: white;
@@ -100,6 +123,7 @@ body{
     border-radius: 5px;
     width: 37px;
     font-size: 15px;
+    padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .view1{
@@ -113,7 +137,7 @@ body{
 }
 .box3{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 3px;
     text-align: center;
@@ -130,7 +154,7 @@ body{
 }
 .box4{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 5px;
     text-align: center;
@@ -147,7 +171,7 @@ body{
 }
 .box5{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 5px;
     text-align: center;
@@ -164,19 +188,20 @@ body{
 }
 .sales2{
     position: absolute;
-    top: 125%;
+    top: 126.6%;
     margin-left: 200px;
     background-color: black;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
     width: 37px;
+    padding: 2px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .box6{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 5px;
     text-align: center;
@@ -193,7 +218,7 @@ body{
 }
 .box7{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 5px;
     text-align: center;
@@ -210,7 +235,7 @@ body{
 }
 .box8{
     width: 265px;
-    height: 370px;
+    height: 380px;
     border: 1px solid rgb(205,205,230);
     border-radius: 5px;
     text-align: center;  
@@ -236,8 +261,14 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
+@media only screen and (min-width: 480px){
+/* For mobile phones:*/
+   .head{
+        float: left;
+        display: grid;
+        justify-content: left;
+  }
+}
 
 
 
